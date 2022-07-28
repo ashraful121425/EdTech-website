@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap framework</title>
+    <link rel="stylesheet" href="styles/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   </head>
   <body>
-    <header>
+    <header class="container">
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container">
               <a class="navbar-brand" href="#">Bootstrap framework</a>
@@ -42,7 +43,138 @@
               </div>
             </div>
           </nav>
+          <!-- slider start -->
+          <section class="mt-2 .bg-light  p-2 text-white">
+            <div id="carouselExampleCaptions" class="carousel slide"data-bs-ride="false">
+
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="edTech-website-main/images/cover/cover-1.png" class=" img-disabled placeholder d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h1>Get Started Digital <br>Learning
+                    </h1>
+                      <p>It is a long established fact that a reader will be distracted by the readable.content of a page when looking at its layout</p>
+                      <button class="btn btn bg-primary btn text-white">Get Started</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>  
+            </div>
+          </section>
+          <!-- slider end -->
     </header>
+    <main class="">
+        <!-- Courses start -->
+        <section>
+            <h1 class="text-center">Discover Our Popular <br>Courses</h1>
+            <p  class="text-center">It is a long established fact that a reader will be distracted by the readable <br>content of a page when looking at its layout.</p>
+         <div class="parent" >
+           <div class="child1">
+            <div class="d-flex m-5">
+              <div>
+                  <img src="edTech-website-main/images/course/course-1.png" alt="">
+              </div>
+              <div class="m-5">
+                  <h1>Fundamental Of UI/UX Design</h1>
+                  <p>Gain a deep understanding of innovative visual design procedures in our B.A. programme. UE Innovation Hub in Berlin-Potsdam - experience. innovation. Business Network. Top Career Opportunities. Study in Berlin. International Atmosphere. Top Ranking </p>
+                  <p class="text-primary px-4 py-6 ">Price : 20$ </p>
+              </div>
+             </div>
+            
+             <div class="d-flex m-5">
+              <div>
+                  <img src="edTech-website-main/images/course/course-2.png" alt="">
+              </div>
+              <div class="m-5">
+                  <h1>Javascript Basic to advanced</h1>
+                  <p>Learn JavaScript with this complete course on the market. From beginner to advanced. Join millions of learners from around the world already learning on Udemy. Over 185,000 Courses. Object-Oriented. Courses in 60+ Languages. Expert Instructors. Lifetime Access.
+                  </p>
+                  <p class="text-primary px-4 py-6 ">Price : 20$ </p>
+              </div>
+             </div>
+           </div>
+
+               <div class="child2">
+                <div class="d-flex m-5">
+                  <div>
+                      <img src="edTech-website-main/images/course/course-3.png" alt="">
+                  </div>
+                  <div class="m-5">
+                      <h1>Fullstack Web Development</h1>
+                      <p>A full stack web developer is a person who can develop both client and server software. In addition to mastering HTML and CSS, he/she also knows how to: Program a browser (like using JavaScript, jQuery, Angular, or Vue) Program a server (like using PHP, ASP, Python, or Node) </p>
+                      <p class="text-primary px-4 py-6 ">Price : 20$ </p>
+                  </div>
+                 </div>
+                
+                 <div class="d-flex m-5">
+                  <div>
+                      <img src="edTech-website-main/images/course/course-4.png" alt="">
+                  </div>
+                  <div class="m-5">
+                      <h1>Digital Marketing</h1>
+                      <p>Digital marketing, also called online marketing, is the promotion of brands to connect with potential customers using the internet and other forms of digital communication. This includes not only email, social media, and web-based advertising, but also text and multimedia messages as a marketing channel. </p>
+                      <p class="text-primary px-4 py-6 ">Price : 20$ </p>
+                  </div>
+                 </div>
+                </div>
+               <div class="child3">
+                <div class="d-flex m-5">
+                  <div>
+                      <img src="edTech-website-main/images/course/course-5.png" alt="">
+                  </div>
+                  <div class="m-5">
+                      <h1>Photography Basic Rules</h1>
+                      <p>If you have your own essential photography rules/guidelines, do share them with us in the comments section below.
+                          Fill The Frame / Cropping. ...
+                          Don't Cut Off Limbs. ...
+                          Understand The Rule Of Thirds. ...
+                          Use Frames. ...
+                          Make The Most Of Lead In Lines / Shapes </p>
+                      <p class="text-primary px-4 py-6 ">Price : 20$ </p>
+                  </div>
+                 </div>
+                
+                 <div class="d-flex m-5">
+                  <div>
+                      <img src="edTech-website-main/images/course/course-6.png" alt="">
+                  </div>
+                  <div class="m-5">
+                      <h1>Motion Graphics</h1>
+                      <p>Motion graphics (sometimes mograph) are pieces of animation or digital footage which create the illusion of motion or rotation, and are usually combined with audio for use in multimedia projects. </p>
+                      <p class="text-primary px-4 py-6 ">Price : 20$ </p>
+                  </div>
+                 </div> 
+               </div>
+
+               </div>
+              </div>
+              <div class="text-center">
+                <button class="bg-primary text-white border rounded-1 p-2 w-20" type="submit">See More Courses</button>
+              </div>
+      
+           
+        </section>
+        <!-- Courses end -->
+        <!-- ready start -->
+        <div class="reader">
+            <div class="">
+                <h1>Ready to join?</h1>
+                <p>It is a long established fact that a reader will be distracted by the
+                    readable content of a page when looking at its layout.</p>
+            </div>
+            <div><button class="bg-white">Register Now </button>
+            </div>
+        </div>
+        <!-- ready end -->
+
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
