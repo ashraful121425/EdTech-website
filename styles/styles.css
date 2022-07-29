@@ -15,6 +15,7 @@ h1 , p{
 .parent{
     display: flex;
     flex-direction: row;
+    margin: 5px 10px;
     
 }
 .child1{
